@@ -14,13 +14,11 @@ Install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
-bash```
+
 
 Usage
 Run the main script:
-```bash
 python predictive_maintenance.py
-bash```
 
 Files:
 
