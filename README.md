@@ -14,6 +14,7 @@ pip install -r requirements.txt
 
 ## Usage
 Run the main script:
+
 python predictive_maintenance.py
 
 ## Files:
