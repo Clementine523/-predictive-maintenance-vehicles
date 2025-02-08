@@ -14,6 +14,8 @@ Install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
+```bash
+
 
 
 Usage
