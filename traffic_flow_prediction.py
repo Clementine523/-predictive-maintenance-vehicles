@@ -29,7 +29,7 @@ def generate_traffic_data(n_points: int = 10080) -> Tuple[np.ndarray, np.ndarray
     # Weekly pattern (5 work days + 2 weekend days)
     weekly = 10 * np.sin(2 * np.pi * time / 10080)  # 10080 = 7*1440
 
-    # Mercedes-specific patterns
+    # Patterns
     rush_hours = 15 * (np.exp(-(time % 1440 - 480)**2/(2*60**2)) +  # Morning rush (8:00)
                        np.exp(-(time % 1440 - 1020)**2/(2*60**2)))  # Evening rush (17:00)
 
@@ -79,7 +79,7 @@ class TrafficPreprocessor:
 # Advanced LSTM Model
 # --------------------------
 def build_traffic_model(input_shape: Tuple[int, int]) -> tf.keras.Model:
-    """Mercedes-grade traffic prediction model"""
+    """High-grade traffic prediction model"""
     model = Sequential([
         Bidirectional(LSTM(128, return_sequences=True,
                          recurrent_dropout=0.2),
