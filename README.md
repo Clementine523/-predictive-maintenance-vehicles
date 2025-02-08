@@ -1,32 +1,42 @@
-# AI‑Based Predictive Maintenance for Vehicles
+# AI‑Based Traffic Flow Prediction
 
-This project demonstrates an AI‑based predictive maintenance system for vehicles using an enhanced LSTM model with Bidirectional layers. The project simulates vehicle sensor data with noise and drift, trains a model to predict future sensor readings, and detects anomalies to flag potential failures.
+This project develops a Mercedes‑grade traffic flow prediction model using an advanced bidirectional LSTM network. It generates synthetic traffic data that incorporates daily cycles, weekly patterns, rush-hour peaks, and random incidents, and then forecasts traffic over a one‑hour horizon.
 
 ## Features
-- **Data Simulation:** Realistic sensor data generation with noise and drift.
-- **Enhanced LSTM Model:** Bidirectional LSTM layers with dropout to capture long‑term dependencies.
-- **Anomaly Detection:** Consecutive anomaly checking with a threshold based on the 99th percentile of training errors.
-- **Deployment Ready:** Saves the trained model and scaler for production use.
+
+- **Realistic Data Generation:** Simulates traffic with daily and weekly cycles plus random events.
+- **Advanced LSTM Model:** Uses bidirectional LSTM layers with dropout for robust prediction.
+- **Evaluation Metrics:** Assesses model performance with RMSE and MAE.
+- **Deployment Ready:** Saves model artifacts and scaler for future use.
 
 ## Installation
-Install the required dependencies using pip:
+
+Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 Run the main script:
 
-python predictive_maintenance.py
+```bash
+python traffic_flow_prediction.py
+```
 
-## Files:
+## Files
 
-1. predictive_maintenance.py - Main project code.
+1. traffic_flow_prediction.py - Main project code.
 2. requirements.txt - List of dependencies.
 3. .gitignore - Git ignore file.
 
-## Author:
-Raghav Jha 
+## Author
+
+Raghav Jha
+
 raghavmrparadise@gmail.com
+
 
 
 
