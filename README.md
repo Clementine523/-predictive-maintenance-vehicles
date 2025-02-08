@@ -28,8 +28,10 @@ Files:
 2. requirements.txt - List of dependencies.
 3. .gitignore - Git ignore file.
 
-Author
-Raghav Jha  {raghavmrparadise@gmail.com}
+Author:
+
+Raghav Jha 
+{raghavmrparadise@gmail.com}
 
 
 
