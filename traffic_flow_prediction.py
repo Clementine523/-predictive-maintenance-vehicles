@@ -1,4 +1,3 @@
-!pip install numpy matplotlib tensorflow scikit-learn
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -19,7 +18,7 @@ def generate_traffic_data(n_points: int = 10080) -> Tuple[np.ndarray, np.ndarray
     - Daily cycles (1440 minutes = 24h * 60)
     - Weekly patterns
     - Random events (accidents, special events)
-    - Mercedes traffic patterns (rush hours, factory shifts)
+    - Luxury Vehicle traffic patterns (rush hours, factory shifts)
     """
     time = np.arange(n_points)
 
