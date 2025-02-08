@@ -13,11 +13,13 @@ Install the required dependencies using pip:
 pip install -r requirements.txt
 
 ## Usage
+
 Run the main script:
 
 python predictive_maintenance.py
 
 ## Files:
+
 1. predictive_maintenance.py - Main project code.
 2. requirements.txt - List of dependencies.
 3. .gitignore - Git ignore file.
