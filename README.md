@@ -12,9 +12,9 @@ This project demonstrates an AI‑based predictive maintenance system for vehicl
 
 Install the required dependencies using pip:
 
-```bash
+
 pip install -r requirements.txt
-```bash
+
 
 
 
