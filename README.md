@@ -9,29 +9,21 @@ This project demonstrates an AI‑based predictive maintenance system for vehicl
 - **Deployment Ready:** Saves the trained model and scaler for production use.
 
 ## Installation
-
 Install the required dependencies using pip:
-
-
 pip install -r requirements.txt
 
-
-
-
-Usage
+## Usage
 Run the main script:
 python predictive_maintenance.py
 
-Files:
-
+## Files:
 1. predictive_maintenance.py - Main project code.
 2. requirements.txt - List of dependencies.
 3. .gitignore - Git ignore file.
 
-Author:
-
+## Author:
 Raghav Jha 
-{raghavmrparadise@gmail.com}
+raghavmrparadise@gmail.com
 
 
 
